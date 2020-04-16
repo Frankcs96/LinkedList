@@ -28,6 +28,11 @@ circular (“en anillo”) tanto en dirección directa (“adelante”) como inv
 
 El principal beneficio de las listas enlazadas respecto a los vectores convencionales es que el orden de los elementos enlazados puede ser diferente al orden de almacenamiento en la memoria o el disco, permitiendo que el orden de recorrido de la lista sea diferente al de almacenamiento.
 
+En la siguiente tabla podemos ver el tiempo de ejecución de los arrays y las linkedList en comparativa:
+
+![Onotation](https://i.gyazo.com/7d05140d70acfef31fd1e259b9150ebc.png)
+
+
 # Clase LinkedList en java
 
 Por suerte java nos trae la implementación de la lista enlazada ya hecha.
