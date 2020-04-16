@@ -31,6 +31,8 @@ El principal beneficio de las listas enlazadas respecto a los vectores convencio
 # Clase LinkedList en java
 
 Por suerte java nos trae la implementación de la lista enlazada ya hecha.
+![Jerarquia](https://www.google.com/url?sa=i&url=http%3A%2F%2Fhanconina.nubeuniversitaria.com%2Feducational-studies%2Ftutoriales%2Fdesarrollo-de-tutoriales-de-java%2Flaboratorio3tiposgenericosyjavaframeworkcollections&psig=AOvVaw19M2u5O5pM9pHqhk_oVb_a&ust=1587110950138000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDIu5u_7OgCFQAAAAAdAAAAABAD)
+
 
 Sencillo ejemplo de como usar una LinkedList en java:
 
