@@ -65,3 +65,18 @@ public class AnimalesEnlazados{
 
 
 ```
+# Métodos mas comunes de la clase LinkedList
+
+* **add(elemento)** -> Añade un elemento a la ultima posicíon de la lista
+
+* **addFirst(elemento)** -> Añade un elemento a la primera posicíon de la lista
+
+* **addLast(elemento)** -> Añade un elemento a la ultima posicíon de la lista
+
+* **clear()** -> Deja la lista vacia
+
+* **add(elemento)** -> Añade un elemento a la ultima posicíon de la lista
+
+* **get(index)** -> Nos devuelve el valor de cierta posición en la lista
+
+Para mas información sobre como funciona la clase consultar la API de java https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
