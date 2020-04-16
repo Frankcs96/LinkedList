@@ -6,7 +6,7 @@ Una lista enlazada es una colección o secuencia de elementos dispuestos uno det
 
 ![Lista](https://sites.google.com/a/espe.edu.ec/programacion-ii/home/listas-enlazadas/lista.png?attredirects=0)
 
-#Tipos de LinkedList
+# Tipos de LinkedList
 
 * **Listas simplemente enlazadas:**  Cada nodo (elemento) contiene un único enlace que lo
 conecta al nodo siguiente o nodo sucesor. La lista es eficiente en recorridos directos
