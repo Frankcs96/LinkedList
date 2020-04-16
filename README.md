@@ -46,24 +46,24 @@ import java.util.*;
 public class AnimalesEnlazados{
    public static void main(String args[]){
 
-     LinkedList<String> Animales=new LinkedList<String>();
+     LinkedList<String> animales =new LinkedList<String>();
 
      //Añadir elementos a la lista
-     list.add("Perro");
-     list.add("Gato");
-     list.add("Ratón");
+     animales.add("Perro");
+     animales.add("Gato");
+     animales.add("Ratón");
 
      //Añadir elemento a la primera posición
-     list.addFirst("Zebra");
+     animales.addFirst("Zebra");
 
      //Añadir elemento a la ultima posición
-     list.addLast("León");
+     animales.addLast("León");
 
      //Añadir elemento a una posición determinada
-     list.add(2, "Caballo");
+     animales.add(2, "Caballo");
 
      //Iterar sobre una LinkedList
-     Iterator<String> iterator=animales.iterator();
+     Iterator<String> iterator = animales.iterator();
      while(iterator.hasNext()){
        System.out.println(iterator.next());
      }
