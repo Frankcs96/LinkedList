@@ -23,3 +23,45 @@ recorrida de modo circular (“en anillo”).
 * **Lista circular doblemente enlazada:** Una lista doblemente enlazada en la que el último
 elemento se enlaza al primer elemento y viceversa. Esta lista se puede recorrer de modo
 circular (“en anillo”) tanto en dirección directa (“adelante”) como inversa (“atrás”).
+
+# Ventajas de la LinkedList con respecto a un ArrayList
+
+El principal beneficio de las listas enlazadas respecto a los vectores convencionales es que el orden de los elementos enlazados puede ser diferente al orden de almacenamiento en la memoria o el disco, permitiendo que el orden de recorrido de la lista sea diferente al de almacenamiento.
+
+# Clase LinkedList en java
+
+Por suerte java nos trae la implementación de la lista enlazada ya hecha.
+
+Sencillo ejemplo de como usar una LinkedList en java:
+
+java```
+import java.util.*;
+public class AnimalesEnlazados{
+   public static void main(String args[]){
+
+     LinkedList<String> Animales=new LinkedList<String>();
+
+     //Añadir elementos a la lista
+     list.add("Perro");
+     list.add("Gato");
+     list.add("Ratón");
+
+     //Añadir elemento a la primera posición
+     list.addFirst("Zebra");
+
+     //Añadir elemento a la ultima posición
+     list.addLast("León");
+
+     //Añadir elemento a una posición determinada
+     list.add(2, "Caballo");
+
+     //Iterar sobre una LinkedList
+     Iterator<String> iterator=animales.iterator();
+     while(iterator.hasNext()){
+       System.out.println(iterator.next());
+     }
+   } 
+} 
+
+
+```
