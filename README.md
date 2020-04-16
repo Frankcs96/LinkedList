@@ -34,7 +34,7 @@ Por suerte java nos trae la implementación de la lista enlazada ya hecha.
 
 Sencillo ejemplo de como usar una LinkedList en java:
 
-java```
+```java
 import java.util.*;
 public class AnimalesEnlazados{
    public static void main(String args[]){
